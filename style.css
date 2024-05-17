@@ -7,6 +7,11 @@
     font-family: "DM Sans", sans-serif;
 }
 
+.overall {
+    background: #2F1893;
+    padding-bottom: 50px;
+}
+
 
 /* this is for custom fonts */
 /* @font-face {
@@ -20,7 +25,7 @@ body {
 }
 
 header {
-    background: white;
+
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
@@ -31,7 +36,7 @@ header {
 }
 
 .site-nav ul li a {
-    color: blue;
+    color: #fff;
     text-decoration: none;
     /* margin-top: 10px;
     margin-bottom: 20px;
@@ -49,14 +54,14 @@ header {
     outline: none;
     box-shadow: none;
     background: transparent;
-    color: blue;
+    color: #fff;
     border: 1px solid rgb(146, 142, 142);
     padding: 10px 30px;
     border-radius: 20px;
 }
 
 .btn:hover {
-    background: white;
+    background: blue;
     cursor: pointer;
 }
 
@@ -73,6 +78,59 @@ header {
     list-style: none;
 }
 .na li a {
-    color: blue;
+    color: #fff;
     text-decoration: none;
+}
+.hero-section {
+    text-align: center;
+}
+
+.hero-section h1 {
+    color: #fff;
+    font-size: 60px;
+}
+
+.hero-section p {
+    color: rgb(199, 194, 194);
+    font-size: 18px;
+}
+
+form {
+    padding-bottom: 30px;
+}
+
+.form-control {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    padding: 10px 25px;
+    border: 1px solid rgb(112, 105, 105);
+    border-radius: 20px;
+    color: #fff;
+    width: 246px;
+}
+
+.hero-btn {
+    border: 0;
+    background: #25DAC5;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+small {
+    color: rgb(112, 105, 105);
+}
+.design-section h2 {
+    text-align: center;
+    color: #1E0E62;
+    background: #fff;
+    padding: 40px;
+    padding-bottom: 20px;
+}
+.design-section {
+    color: rgb(199, 194, 194);
+    font-size: 18px;
+    background: #fff;
+    text-align: center;
 }
